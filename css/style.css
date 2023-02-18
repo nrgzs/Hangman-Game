@@ -1,0 +1,43 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h1 {
+  background-color: darkred;
+  padding: 20px;
+  font-size: 1.5em;
+}
+
+.hangman {
+  width: min-content;
+  border: 2px solid darkred;
+  padding: 10px;
+  margin: 10px auto;
+}
+
+.output {
+  padding: 20px;
+  font-size: 1.5em;
+  border: 2px dashed darkred;
+}
+
+.btn {
+  margin-top: 40px;
+  padding: 20px;
+  border-radius: 50%;
+  background-color: darkred;
+  font-size: 1.2em;
+}
+
+.btn:hover {
+  transform: scale(150%);
+  font-weight: 00;
+}
